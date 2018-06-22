@@ -1,0 +1,204 @@
+/*!
+Theme Name: jungarden
+Theme URI: 	http://shabbir.me/
+Author: Mostafiz Shabbir
+Author URI:  http://facebook.com/shabbir3g
+Description: This is WordPress theme created by mostafiz shabbir. This theme brings your site to life immersive featured images. You can easily customize this theme as you want.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: jungarden
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-jungarden
+*/
+
+
+
+body, table, tr, td, p {
+	
+	font-size: 13px;
+}
+
+.small_bold {
+
+	font-size: 10px;
+	font-weight: bold;
+}
+
+a:link, a:active, a:visited {
+
+	text-decoration: underline;
+	color: #9E9C9C;
+}
+
+a:link.location, a:active.location, a:visited.location {
+
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #E6E6E6;
+}
+
+a:link.slide, a:active.slide, a:visited.slide {
+
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #E6E6E6;
+}
+
+input, option {
+
+	border-color:#3C3C3C;
+	border-width:1;
+	font-family:Arial,Verdana;
+	font-size:11;
+	background-color:#FFFFFF;
+	color:#3C3C3C;
+	padding: 1;
+}
+        
+select {
+
+	border-color:#3C3C3C;
+	border-width:0;
+	font-family:Arial, Verdana;
+	font-size:10px;
+	color:#3C3C3C;
+	background-color:#FFFFFF;
+	padding:0;
+}
+        
+textarea {
+
+	border-color:#3C3C3C;
+	border-width:1;
+	overflow:hidden;
+	font-family:Arial, Verdana;
+	font-size:10;
+	color:#000000;
+	background-color:#FFFFFF;
+	padding:5
+}
+
+
+input.submit {
+
+	background-color: #FFFFFF;
+	font-weight: bold;
+	border-width:0;
+}
+
+.left-footer{
+	width: 48%;
+	float: left;
+	overflow:hidden;
+	margin-left: 2%;
+	text-align: left;
+}
+.right-footer{
+	width: 48%;
+	float: right;
+	overflow:hidden;
+	margin-right: 2%;
+	text-align: right;
+	
+}
+.gallery-all{
+	text-align: center;
+}
+.gallery-box {
+	width: 30%;
+	display: inline-block;
+	margin: 4px 5px;
+	height: 220px;
+	background: #176B08;
+	text-align: center;
+
+}
+
+
+.gallery-box img{
+	width: 100%;
+  	height: 220px;
+}
+a:link, a:visited {
+	color: #b7bd19;
+	text-decoration: none;
+	font-weight: bold;
+}
+.middle-area{
+	width: 90%;
+	margin: 20px auto;
+}
+
+#templatemo_menu li a {
+	float: left;
+	display: block;
+	padding: 0px 24px 0 24px;
+}
+
+#templatemo_menu li.current-menu-item a, #templatemo_menu li a:hover {
+	color: #b4c927;
+	text-decoration: none;
+	background: url('images/templatemo_menu_hover_right.jpg') no-repeat right top;
+}
+
+.left-footer ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.left-footer ul li{
+	float: left;
+	overflow: hidden;
+	
+}
+.left-footer ul li a{
+	display: block;
+	padding: 0px 5px;
+	border-right: 1px solid #000;
+	line-height: 9px;
+}
+.left-footer ul li:last-child a{
+	border: none;
+}
+.footer-top {
+	overflow: hidden;
+}
+.right-footer a.text-right{
+	position: relative;
+	top: -8px;
+}
+.top-menus{
+	width: 50%;
+	margin: auto;
+}
+.top-menus .menu-box{
+	width: 48%;
+	display: inline-block;
+}
+.top-menus .menu-box img{
+	width: 100%;
+}
+.top-menus .menu-box p{
+	text-align: center;
+}
+
+
+.bottom-menus{
+	text-align: center;
+}
+.bottom-menus .menu-box{
+	width: 23%;
+	display: inline-block;
+}
+.bottom-menus .menu-box img{
+	width: 100%;
+}
+.bottom-menus .menu-box p{
+	text-align: center;
+}
+
+.middle-area table{
+	width: 80%;
+}
